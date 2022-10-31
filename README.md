@@ -35,9 +35,9 @@
 | 2022-11-03 |  [기타 레슨(2343)](https://www.acmicpc.net/problem/2343)  | 이현홍 |
 | 2022-11-04 | [랜선 자르기(1654)](https://www.acmicpc.net/problem/1654) | 이선우 |
 | 2022-11-05 |  [K번째 수(1300)](https://www.acmicpc.net/problem/1300)   | 임용식 |
-| 2022-11-07 | [석판 자르기(2339)](https://www.acmicpc.net/problem/2339) | 손창한 |
-| 2022-11-08 | [합 구하기(13430)](https://www.acmicpc.net/problem/13430) | 이현홍 |
-| 2022-11-09 | [박스 채우기(1493)](https://www.acmicpc.net/problem/1493) | 이선우 |
+| 2022-11-07 | [문자열 폭발(9935)](https://www.acmicpc.net/problem/9935) | 손창한 |
+| 2022-11-08 | [박스 채우기(1493)](https://www.acmicpc.net/problem/1493) | 이현홍 |
+| 2022-11-09 |   [에디터(1406)](https://www.acmicpc.net/problem/1406)    | 이선우 |
 
 ### 3주차(2022-11-10 ~ 2022-11-16)
 
