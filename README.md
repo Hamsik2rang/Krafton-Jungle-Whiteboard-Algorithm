@@ -34,30 +34,27 @@
 | :--------: | :-------------------------------------------------------: | :----: |
 | 2022-11-03 |  [기타 레슨(2343)](https://www.acmicpc.net/problem/2343)  | 이현홍 |
 | 2022-11-04 | [랜선 자르기(1654)](https://www.acmicpc.net/problem/1654) | 이선우 |
-| 2022-11-05 |  [K번째 수(1300)](https://www.acmicpc.net/problem/1300)   | 임용식 |
-| 2022-11-07 | [문자열 폭발(9935)](https://www.acmicpc.net/problem/9935) | 손창한 |
-| 2022-11-08 | [박스 채우기(1493)](https://www.acmicpc.net/problem/1493) | 이현홍 |
-| 2022-11-09 |   [에디터(1406)](https://www.acmicpc.net/problem/1406)    | 이선우 |
+| 2022-11-07 |  [K번째 수(1300)](https://www.acmicpc.net/problem/1300)   | 임용식 |
+| 2022-11-08 | [문자열 폭발(9935)](https://www.acmicpc.net/problem/9935) | 손창한 |
+| 2022-11-09 | [박스 채우기(1493)](https://www.acmicpc.net/problem/1493) | 이현홍 |
 
 ### 3주차(2022-11-10 ~ 2022-11-16)
 
 |    날짜    |                             문제                             | 호스트 |
 | :--------: | :----------------------------------------------------------: | :----: |
-| 2022-11-10 |   [버블 소트(1517)](https://www.acmicpc.net/problem/1517)    | 임용식 |
-| 2022-11-11 |   [소수 경로(1963)](https://www.acmicpc.net/problem/1963)    | 손창한 |
-| 2022-11-12 |   [이모티콘(14226)](https://www.acmicpc.net/problem/14226)   | 이현홍 |
-| 2022-11-14 | [벽 부수고 이동하기(2206)](https://www.acmicpc.net/problem/2206) | 이선우 |
-| 2022-11-15 |    [달리기(16930)](https://www.acmicpc.net/problem/16930)    | 임용식 |
-| 2022-11-16 |   [게임 개발(1516)](https://www.acmicpc.net/problem/1516)    | 손창한 |
+| 2022-11-10 |     [에디터(1406)](https://www.acmicpc.net/problem/1406)     | 이선우 |
+| 2022-11-11 |   [버블 소트(1517)](https://www.acmicpc.net/problem/1517)    | 임용식 |
+| 2022-11-14 |   [소수 경로(1963)](https://www.acmicpc.net/problem/1963)    | 손창한 |
+| 2022-11-15 |   [이모티콘(14226)](https://www.acmicpc.net/problem/14226)   | 이현홍 |
+| 2022-11-16 | [벽 부수고 이동하기(2206)](https://www.acmicpc.net/problem/2206) | 이선우 |
 
 ### 4주차(2022-11-17 ~ 2022-11-23)
 
 |    날짜    |                             문제                             | 호스트 |
 | :--------: | :----------------------------------------------------------: | :----: |
-| 2022-11-17 |   [연속합 2(13398)](https://www.acmicpc.net/problem/13398)   | 이현홍 |
-| 2022-11-18 | [색종이 올려 놓기(2643)](https://www.acmicpc.net/problem/2643) | 이선우 |
-| 2022-11-19 |     [색상환(2482)](https://www.acmicpc.net/problem/2482)     | 임용식 |
-| 2022-11-21 | [팰린드롬 만들기(1254)](https://www.acmicpc.net/problem/1254) | 손창한 |
-| 2022-11-22 |    [계단 수(1562)](https://www.acmicpc.net/problem/1562)     | 이현홍 |
-| 2022-11-23 |    [상자넣기(1965)](https://www.acmicpc.net/problem/1965)    | 이선우 |
+| 2022-11-17 |    [달리기(16930)](https://www.acmicpc.net/problem/16930)    | 임용식 |
+| 2022-11-18 |   [게임 개발(1516)](https://www.acmicpc.net/problem/1516)    | 손창한 |
+| 2022-11-21 |   [연속합 2(13398)](https://www.acmicpc.net/problem/13398)   | 이현홍 |
+| 2022-11-22 | [색종이 올려 놓기(2643)](https://www.acmicpc.net/problem/2643) | 이선우 |
+| 2022-11-23 |     [색상환(2482)](https://www.acmicpc.net/problem/2482)     | 임용식 |
 
