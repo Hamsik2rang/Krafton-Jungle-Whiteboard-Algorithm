@@ -1,6 +1,7 @@
 import sys
 # string=list(sys.stdin.readline())
-# string=list(input())
+# # string=list(input())
+# print(string)
 # string=list(sys.stdin.readline().strip())
 # print(string)
 
@@ -20,5 +21,8 @@ for _ in range(int(sys.stdin.readline())):
         str_Lstack.pop()
     elif command[0]=="P": 
         str_Lstack.append(command[1])
+        
+    # print(str_Lstack)
+    # print(str_Rstack)
 
 print(''.join(str_Lstack) + ''.join(reversed(str_Rstack)))
