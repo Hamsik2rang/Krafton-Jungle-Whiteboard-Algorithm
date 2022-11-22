@@ -58,9 +58,7 @@ def bfs(a,b): #시작 위치 받을 것
                         # heap.append([s+1,nx,ny])
                     elif gym[nx][ny]=="#":
                         break
-                
-        print(heap)
-    
+        # print(heap)
     return print(-1)
 
 print(gym)
