@@ -13,13 +13,23 @@ ans_list = []
 for num in num_list:
     if num % 3 != 0:
         ans_list.append(num)
-# 마지막 값 찾기
+
 if ans_list == []:
-    temp = math.log(num) / math.log(3)
-    if (temp - int(temp) == 0):
-        pass
-    else:
-        ans_list.append(num)
+    for num in num_list:
+        temp = math.log(num) / math.log(3)
+        print(temp)
+        if (temp - int(temp) == 0):
+            print(1)
+            pass
+        else:
+            print(2)
+            ans_list.append(num)
+
+if ans_list == []:
+    num_list.sort(reverse=True)
+    for num in num_list:
+        print(num, end=' ')
+    exit()
 
 ans_list.sort()
 
