@@ -67,3 +67,15 @@
 | 2022-11-29 |      [작업(2056)](https://www.acmicpc.net/problem/2056)      | 이선우 |
 | 2022-11-30 | [직사각형 탈출(16973)](https://www.acmicpc.net/problem/16973) | 장지영 |
 
+### 6주차(2022-12-01 ~ 2022-12-07)
+
+|    날짜    |                            문제 1                            | 호스트 1 |                            문제2                             | 호스트 2 |
+| :--------: | :----------------------------------------------------------: | :------: | :----------------------------------------------------------: | :------: |
+| 2022-12-01 |     [스도쿠(2580)](https://www.acmicpc.net/problem/2580)     |  우한봄  | [스타트와 링크(14889)](https://www.acmicpc.net/problem/14889) |  박정은  |
+| 2022-12-02 | [에너지 모으기(16198)](https://www.acmicpc.net/problem/16198) |  김세희  |   [두 동전(16197)](https://www.acmicpc.net/problem/16197)    |  박재형  |
+| 2022-12-05 |     [퇴사(14501)](https://www.acmicpc.net/problem/14501)     |  장홍표  |  [테트로미노(14500)](https://www.acmicpc.net/problem/14500)  |  임용식  |
+| 2022-12-06 |  [레이저 통신(6087)](https://www.acmicpc.net/problem/6087)   |  손창한  | [데스 나이트(16948)](https://www.acmicpc.net/problem/16948)  |  이현홍  |
+| 2022-12-07 |  [아기 상어(16236)](https://www.acmicpc.net/problem/16236)   |  이선우  |   [돌 그룹(12886)](https://www.acmicpc.net/problem/12886)    |  장지영  |
+
+
+
