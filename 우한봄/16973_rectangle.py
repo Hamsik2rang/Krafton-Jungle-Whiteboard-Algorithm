@@ -16,7 +16,6 @@ q=deque()
 q.append([y,x,0])
 visited[y][x]=True
 
-print(q)
 
 while q:
     y,x,cnt=q.popleft()
@@ -31,14 +30,13 @@ while q:
         if (0<=nx and nx+(w-1)<=m-1 and 0<=ny and ny+(h-1)<=n-1 and not visited[ny][nx]):
             go=True
             for h_idx in range(h):
-                print(r_map[y+h_idx][nx:nx+w], [0]*w)
                 if (r_map[y+h_idx][nx:(nx+w)] != [0]*w):
                     go=False
                     break
             if go:
                 visited[ny][nx]=True
                 q.append([ny,nx,cnt+1])
-    print(q)
+    # print(q)
                 
                     
 
