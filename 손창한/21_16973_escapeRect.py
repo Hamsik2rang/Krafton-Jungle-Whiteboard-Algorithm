@@ -5,6 +5,7 @@ input = sys.stdin.readline
 def bfs():
     queue = deque()
     queue.append((sr-1, sc-1))
+    vis[sr-1][sc-1] = 1
     while queue:
         r, c = queue.popleft()
         if r == fr-1 and c == fc-1:
@@ -24,7 +25,6 @@ h, w, sr, sc, fr, fc = map(int, input().split())
 vis = [[0 for _ in range(m)] for _ in range(n)]
 # prefix_sum list
 pfs = [[0 for _ in range(m+1)] for _ in range(n+1)]
-vis[sr-1][sc-1] = 1
 for i in range(1, n+1):
     for j in range(1, m+1):
         pfs[i][j] = mat[i-1][j-1] + pfs[i-1][j] + pfs[i][j-1] - pfs[i-1][j-1]
