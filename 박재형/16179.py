@@ -86,4 +86,11 @@ def bfs(x1, y1, x2, y2):
                     return steps
 
 answer = bfs(coin_pos_1[0], coin_pos_1[1], coin_pos_2[0], coin_pos_2[1])
-print(answer)
+# print(answer)
+# 동전들이 벽들에 의해 아예 움직일 수 없는 상황에는 queue에 더이상 코인들이 들어가지 않음.
+# 그러면 함수의 return 값이 없이 끝남
+# 따라서 답 출력할 때 예외처리하는 방법을 선택했음
+if not answer:
+    print (-1)
+else:
+    print(answer)
