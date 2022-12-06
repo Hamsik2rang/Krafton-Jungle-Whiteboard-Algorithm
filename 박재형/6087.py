@@ -1,6 +1,5 @@
 import sys
 from collections import deque
-sys.stdin = open('input.txt', 'r')
 
 W, H = map(int, sys.stdin.readline().strip().split())
 graph = [[] for _ in range(H)]
