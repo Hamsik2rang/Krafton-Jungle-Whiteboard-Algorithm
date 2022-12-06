@@ -32,10 +32,10 @@ def Move(row, col, array, q):
             if array[r+2][c+1] == 0:
                 array[r+2][c+1] = array[r][c] + 1
                 q.append((r+2,c+1))
-        if (c+2)>=0 and (c+2) < N:
-            if array[r][c+2] == 0:
-                array[r][c+2] = array[r][c] + 1
-                q.append((r,c+2))
+        if (c-2)>=0 and (c-2) < N:
+            if array[r][c-2] == 0:
+                array[r][c-2] = array[r][c] + 1
+                q.append((r,c-2))
         if (r+2)>=0 and (r+2) < N and (c-1)>=0 and (c-1) < N:
             if array[r+2][c-1] == 0:
                 array[r+2][c-1] = array[r][c] + 1
