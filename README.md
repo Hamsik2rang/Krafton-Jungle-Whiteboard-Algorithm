@@ -76,3 +76,14 @@
 | 2022-12-05 |   [두 동전(16197)](https://www.acmicpc.net/problem/16197)    |  박재형  |  [테트로미노(14500)](https://www.acmicpc.net/problem/14500)  |  임용식  |
 | 2022-12-06 |  [레이저 통신(6087)](https://www.acmicpc.net/problem/6087)   |  손창한  | [데스 나이트(16948)](https://www.acmicpc.net/problem/16948)  |  이현홍  |
 | 2022-12-07 |  [아기 상어(16236)](https://www.acmicpc.net/problem/16236)   |  이선우  |   [돌 그룹(12886)](https://www.acmicpc.net/problem/12886)    |  장지영  |
+
+### 7주차(2022-12-08 ~ 2022-12-14)
+
+|    날짜    |                            문제 1                            | 호스트 1 |                            문제2                             | 호스트 2 |
+| :--------: | :----------------------------------------------------------: | :------: | :----------------------------------------------------------: | :------: |
+| 2022-12-08 | [센티와 마법의 뿅망치(19638)](https://www.acmicpc.net/problem/19638) |  우한봄  |   [BOJ 거리(12026)](https://www.acmicpc.net/problem/12026)   |  박정은  |
+| 2022-12-09 |   [스타트링크(5014)](https://www.acmicpc.net/problem/5014)   |  김세희  |   [Two Dots(16929)](https://www.acmicpc.net/problem/16929)   |  장홍표  |
+| 2022-12-12 | [부분수열의 합(14225)](https://www.acmicpc.net/problem/14225) |  박재형  | [서울 지하철 2호선(16947)](https://www.acmicpc.net/problem/16947) |  임용식  |
+| 2022-12-13 |  [뮤탈리스크(12869)](https://www.acmicpc.net/problem/12869)  |  손창한  |  [인구 이동(16234)](https://www.acmicpc.net/problem/16234)   |  이현홍  |
+| 2022-12-14 | [연산자 끼워넣기 (2)(15658)](https://www.acmicpc.net/problem/15658) |  이선우  |     [Acka(12996)](https://www.acmicpc.net/problem/12996)     |  장지영  |
+
