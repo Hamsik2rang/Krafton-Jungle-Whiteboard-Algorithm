@@ -15,7 +15,6 @@ def dfs(r, c, br, bc, chk):
         if nr == br and nc == bc:
             continue
         dfs(nr, nc, r, c, chk)
-    return False
 
 n, m = map(int, input().split())
 brd = list(list(input().strip()) for _ in range(n))
@@ -28,6 +27,4 @@ for i in range(n):
     for j in range(m):
         if not vis[i][j]:
             flg = dfs(i, j, -1, -1, brd[i][j])
-            if flg:
-                break
 print("No")
