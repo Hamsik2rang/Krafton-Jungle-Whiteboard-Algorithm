@@ -87,3 +87,13 @@
 | 2022-12-13 |  [뮤탈리스크(12869)](https://www.acmicpc.net/problem/12869)  |  손창한  |  [인구 이동(16234)](https://www.acmicpc.net/problem/16234)   |  이현홍  |
 | 2022-12-14 | [연산자 끼워넣기 (2)(15658)](https://www.acmicpc.net/problem/15658) |  이선우  |     [Acka(12996)](https://www.acmicpc.net/problem/12996)     |  장지영  |
 
+### 8주차(2022-12-15 ~ 2022-12-21)
+
+|    날짜    |                            문제 1                            | 호스트 1 |                           문제2                           | 호스트 2 |
+| :--------: | :----------------------------------------------------------: | :------: | :-------------------------------------------------------: | :------: |
+| 2022-12-08 |     [LCA(11437)](https://www.acmicpc.net/problem/11437)      |  우한봄  | [신기한 소수(2023)](https://www.acmicpc.net/problem/2023) |  박정은  |
+| 2022-12-09 | [히오스 프로게이머(16564)](https://www.acmicpc.net/problem/16564) |  김세희  |   [사다리(2022)](https://www.acmicpc.net/problem/2022)    |  장홍표  |
+| 2022-12-12 | [사이클 게임(20040)](https://www.acmicpc.net/problem/20040)  |  박재형  |    [찾기(1786)](https://www.acmicpc.net/problem/1786)     |  임용식  |
+| 2022-12-13 | [전화번호 목록(5052)](https://www.acmicpc.net/problem/5052)  |  손창한  | [트리의 지름(1967)](https://www.acmicpc.net/problem/1967) |  이현홍  |
+| 2022-12-14 | [여러분의 다리가 되어 드리겠습니다!(17352)](https://www.acmicpc.net/problem/17352) |  이선우  |   [거짓말(1043)](https://www.acmicpc.net/problem/1043)    |  장지영  |
+
