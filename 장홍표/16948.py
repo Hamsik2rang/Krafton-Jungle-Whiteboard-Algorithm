@@ -40,7 +40,7 @@ def Move(row, col, array, q):
             if array[r+2][c-1] == 0:
                 array[r+2][c-1] = array[r][c] + 1
                 q.append((r+2,c-1))
-
+//test
 Move(sr,sc,array,q)
 if array[er][ec] == 0:
     print(-1)
