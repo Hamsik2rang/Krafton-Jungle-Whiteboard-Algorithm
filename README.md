@@ -97,3 +97,13 @@
 | 2022-12-20 | [전화번호 목록(5052)](https://www.acmicpc.net/problem/5052)  |  손창한  | [트리의 지름(1967)](https://www.acmicpc.net/problem/1967) |  이현홍  |
 | 2022-12-21 | [여러분의 다리가 되어 드리겠습니다!(17352)](https://www.acmicpc.net/problem/17352) |  이선우  |   [거짓말(1043)](https://www.acmicpc.net/problem/1043)    |  장지영  |
 
+### 9주차(2022-12-22 ~ 2022-12-28)
+
+|    날짜    |                            문제                             | 호스트 |
+| :--------: | :---------------------------------------------------------: | :----: |
+| 2022-12-22 |  [크리보드(11058)](https://www.acmicpc.net/problem/11058)   | 우한봄 |
+| 2022-12-23 |  [늑대와 양(16956)](https://www.acmicpc.net/problem/16956)  | 박정은 |
+| 2022-12-26 |    [4연산(14395)](https://www.acmicpc.net/problem/14395)    | 김세희 |
+| 2022-12-27 |    [감시(15683)](https://www.acmicpc.net/problem/15683)     | 장홍표 |
+| 2022-12-28 | [파일 합치기(11066)](https://www.acmicpc.net/problem/11066) | 박재형 |
+
