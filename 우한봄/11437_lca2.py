@@ -11,6 +11,14 @@ sys.stdin=open("input.txt", "r")
 input=sys.stdin.readline
 
 def makeParentINFO():
+    q=deque([1]) # 루트 노드는 무조건 1
+    while q:
+        node=q.popleft()
+        for x in tree[node]: 
+            tree[x].remove(node)
+            # parent update
+            depth[x]=depth[node]+1
+            q.append(x)
     return
 
 def makeTreeINFO(): #O(n)
@@ -39,7 +47,9 @@ def lca(a,b):
     
     
     # 깊이가 같아지도록
-    new_b=parent[b][-len(parent[a]):]
+    parent_a=makeParentINFO(a,depth_num)
+    parent_b=makeParentINFO(b,depth_num)
+    
     if parent[a]==new_b:
         print(parent[a][0])
     else:
