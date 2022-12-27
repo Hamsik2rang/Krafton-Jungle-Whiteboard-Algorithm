@@ -21,6 +21,8 @@
 
 ## 2. 선정 문제
 
+[TOC]
+
 ### 1주차(2022-11-01 ~ 2022-11-02)
 
 |    날짜    |                         문제                         | 호스트 |
@@ -106,4 +108,14 @@
 | 2022-12-26 |    [4연산(14395)](https://www.acmicpc.net/problem/14395)    | 김세희 |
 | 2022-12-27 |    [감시(15683)](https://www.acmicpc.net/problem/15683)     | 장홍표 |
 | 2022-12-28 | [파일 합치기(11066)](https://www.acmicpc.net/problem/11066) | 박재형 |
+
+### 10주차(2022-12-29 ~ 2023-01-04)
+
+|    날짜    |                          문제(기본)                          |                          문제(응용)                          | 호스트 |
+| :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----: |
+| 2022-12-29 |     [주식(11501)](https://www.acmicpc.net/problem/11501)     |      [택배(8980)](https://www.acmicpc.net/problem/8980)      | 임용식 |
+| 2022-12-30 |  [N과 M(10)(15664)](https://www.acmicpc.net/problem/15664)   |  [암호 만들기(1759)](https://www.acmicpc.net/problem/1759)   | 손창한 |
+| 2023-01-02 |   [회전 초밥(2531)](https://www.acmicpc.net/problem/2531)    |     [합이 0(3151)](https://www.acmicpc.net/problem/3151)     | 이현홍 |
+| 2023-01-03 |    [최단경로(1753)](https://www.acmicpc.net/problem/1753)    |    [알고스팟(1261)](https://www.acmicpc.net/problem/1261)    | 이선우 |
+| 2023-01-04 | [외계인의 기타 연주(2841)](https://www.acmicpc.net/problem/2841) | [옥상 정원 꾸미기(6198)](https://www.acmicpc.net/problem/6198) | 장지영 |
 
