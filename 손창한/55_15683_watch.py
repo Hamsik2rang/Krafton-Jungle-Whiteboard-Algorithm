@@ -1,47 +1,48 @@
 import sys
+from copy import deepcopy
 input = sys.stdin.readline
 
-def blind():
-    vis = [[False for _ in range(m)] for _ in range(n)]
-    for x in cam:
-        r, c = x[0]
-        vis[r][c] = True
-        for d in x[1]:
-            while True:
-                r += dir[d][0]
-                c += dir[d][1]
-                if not (-1 < r < n and -1 < c < m):
-                    break
-                vis[r][c] = True
-                if off[r][c] == 6:
-                    break
-    cnt = 0
-    for i in range(n):
-        for j in range(m):
-            if not vis[i][j]:
-                cnt += 1
-    return cnt
-
-def dfs():
-    vis = [False for _ in range(len(cam))]
-    for x in cam:
-
 n, m = map(int, input().split())
-off = [[] for _ in range(n)]
+off = list(list(map(int, input().split())) for _ in range(n))
 cam = []
 for i in range(n):
-    l = list(map(int, input().split()))
     for j in range(m):
-        if l[j] == 1:
-            cam.append([(i, j), (0, )])
-        elif l[j] == 2:
-            cam.append([(i, j), (0, 1)])
-        elif l[j] == 3:
-            cam.append([(i, j), (0, 2)])
-        elif l[j] == 4:
-            cam.append([(i, j), (0, 1, 2)])
-        elif l[j] == 5:
-            cam.append([(i, j), (0, 1, 2, 3)])
-    off[i].extend(l)
-# right, left, up, down
-dir = ((0, 1), (0, -1), (-1, 0), (1, 0))
+        if 1 <= off[i][j] <= 5:
+            cam.append((i, j, off[i][j]))
+dr = [0, 1, 0, -1]
+dc = [1, 0, -1, 0]
+dir = {1: [[0], [1], [2], [3]],
+       2: [[0, 2], [1, 3]],
+       3: [[0, 1], [1, 2], [2, 3], [3, 0]],
+       4: [[0, 1, 2], [1, 2, 3], [2, 3, 0], [3, 0, 1]],
+       5: [[0, 1, 2, 3]]}
+cnt = sys.maxsize
+
+def watch(r, c, d, mat):
+    for i in d:
+        nr, nc = r, c
+        while True:
+            nr += dr[i]
+            nc += dc[i]
+            if not (-1<nr<n and -1<nc<m) or mat[nr][nc] == 6:
+                break
+            if not mat[nr][nc]:
+                mat[nr][nc] = 9
+
+def dfs(dpt, off):
+    global cnt
+    mat = deepcopy(off)
+    if dpt == len(cam):
+        tmp = 0
+        for l in mat:
+            tmp += l.count(0)
+        cnt = min(cnt, tmp)
+        return
+    r, c, x = cam[dpt]
+    for d in dir[x]:
+        watch(r, c, d, mat)
+        dfs(dpt+1, mat)
+        mat = deepcopy(off)
+
+dfs(0, off)
+print(cnt)
