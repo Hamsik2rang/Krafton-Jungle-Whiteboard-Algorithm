@@ -22,7 +22,7 @@
 ## 2. 선정 문제
 <details>
   <summary>이전 문제들 접기/펼치기</summary>
- 
+
   <div markdown="1">  
 
 ### 1주차(2022-11-01 ~ 2022-11-02)
@@ -124,4 +124,14 @@
 | 2023-01-02 |   [회전 초밥(2531)](https://www.acmicpc.net/problem/2531)    |     [합이 0(3151)](https://www.acmicpc.net/problem/3151)     | 이현홍 |
 | 2023-01-03 |    [최단경로(1753)](https://www.acmicpc.net/problem/1753)    |    [알고스팟(1261)](https://www.acmicpc.net/problem/1261)    | 이선우 |
 | 2023-01-04 | [외계인의 기타 연주(2841)](https://www.acmicpc.net/problem/2841) | [옥상 정원 꾸미기(6198)](https://www.acmicpc.net/problem/6198) | 장지영 |
+
+### 11주차(2023-01-05 ~ 2023-01-11)
+
+|    날짜    |                          문제(기본)                          |                         문제(응용)                          | 호스트 |
+| :--------: | :----------------------------------------------------------: | :---------------------------------------------------------: | :----: |
+| 2022-12-29 | [쉬운 계단 수(10844)](https://www.acmicpc.net/problem/10844) |  [팰린드롬?(10942)](https://www.acmicpc.net/problem/10942)  | 우한봄 |
+| 2022-12-30 |  [유기농 배추(1012)](https://www.acmicpc.net/problem/1012)   |      [불(5427)](https://www.acmicpc.net/problem/5427)       | 박정은 |
+| 2023-01-02 |   [수강신청(13414)](https://www.acmicpc.net/problem/13414)   |   [무한 수열(1351)](https://www.acmicpc.net/problem/1351)   | 김세희 |
+| 2023-01-03 |      [그림(1926)](https://www.acmicpc.net/problem/1926)      |   [상범 빌딩(6593)](https://www.acmicpc.net/problem/6593)   | 장홍표 |
+| 2023-01-04 | [계란으로 계란치기(16987)](https://www.acmicpc.net/problem/16987) | [소문난 칠공주(1941)](https://www.acmicpc.net/problem/1941) |  박재  |
 
