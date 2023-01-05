@@ -10,7 +10,7 @@
 import sys
 input=sys.stdin.readline
 
-EXTR=1_000_000_000
+REM=1_000_000_000
 
 n=int(input())
 # dp=[[0]*10]*(n+1)
@@ -29,4 +29,4 @@ for nd in range(2,n+1):
         else:
             dp[nd][i]=dp[nd-1][i-1]+dp[nd-1][i+1]
 
-print(sum(dp[n])%EXTR)
+print(sum(dp[n])%REM)
