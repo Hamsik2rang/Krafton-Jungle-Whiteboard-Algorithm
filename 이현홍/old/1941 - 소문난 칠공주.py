@@ -1,9 +1,5 @@
 import sys
 
-sys.stdin = open("input.txt", "r")
-
-import sys
-
 dct = {"Y": 0, "S": 1}
 seats = [list(map(lambda x: dct[x], list(sys.stdin.readline().rstrip()))) for _ in range(5)]
 count = 0
