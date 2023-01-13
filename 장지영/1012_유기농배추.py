@@ -8,10 +8,10 @@ dy = [1, 0, -1, 0]
 def bfs(sx, sy) : 
     togo = deque()
     togo.append([sx, sy])
+    visited[sx][sy] = 2
     
     while togo : 
         x, y = togo.popleft()
-        visited[x][y] = 2
         
         for i in range(4) : 
             nx = x + dx[i]
@@ -19,6 +19,7 @@ def bfs(sx, sy) :
             if (0 <= nx < M) and (0 <= ny < N) : 
                 if (visited[nx][ny] == 1) : 
                     togo.append([nx, ny])
+                    visited[nx][ny] = 2
     return 1
     
 
