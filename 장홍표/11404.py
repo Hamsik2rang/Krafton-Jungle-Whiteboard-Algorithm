@@ -13,13 +13,11 @@
 <<hint>>
 플로이드 워셜?
 '''
-import math
-inf =  math.inf
 from collections import deque
+inf = 10_000_001
 N = int(input())
 M = int(input())
 Citys = [[ inf for _ in range(N+1)] for _ in range(N+1)]
-checklist = [False for _ in range(N+1)]
 q = deque()
 for i in range(N+1):
     Citys[i][i] = 0
