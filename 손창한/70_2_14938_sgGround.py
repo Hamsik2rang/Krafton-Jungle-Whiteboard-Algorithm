@@ -16,9 +16,9 @@ for i in range(r):
     g[v][u] = min(g[v][u], d)
 # floyd-warshall
 for i in range(1, n+1):
-	for u in range(1, n+1):
-		for v in range(1, n+1):
-			g[u][v] = min(g[u][v], g[u][i]+g[i][v])
+    for u in range(1, n+1):
+        for v in range(1, n+1):
+            g[u][v] = min(g[u][v], g[u][i]+g[i][v])
 # count max items
 cnt = 0
 for i in range(1, n+1):
