@@ -13,6 +13,8 @@
 <<hint>>
 플로이드 워셜?
 '''
+import sys
+input = sys.stdin.readline
 from collections import deque
 inf = 10_000_001
 N = int(input())
@@ -34,10 +36,13 @@ for i in range(1,N+1):
             q.append((i, j, Citys[i][j]))
     while(q):
         start, now, cost = q.popleft()
-        for i in range(1,N+1):
-            if(i!=start and i!=now and (Citys[start][i] > Citys[now][i] + cost)):
-                Citys[start][i] = Citys[now][i] + cost
-                q.append((start, i , Citys[now][i] + cost))
+        for k in range(1,N+1):
+            if(k!=start and k!=now and (Citys[start][k] > Citys[now][k] + cost)):
+                Citys[start][k] = Citys[now][k] + cost
+                if(now>i):
+                    q.append((start, k , Citys[now][k] + cost))
+
+
     
 #q에 넣을 항목...? 출발도시 / 현재도시 / 현재코스트! 출->현재도시 min비교 기록
 
