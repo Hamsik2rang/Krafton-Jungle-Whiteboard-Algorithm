@@ -111,10 +111,6 @@
 | 2022-12-27 |    [감시(15683)](https://www.acmicpc.net/problem/15683)     | 장홍표 |
 | 2022-12-28 | [파일 합치기(11066)](https://www.acmicpc.net/problem/11066) | 박재형 |
 
-</div>
-</summary>
-</details>
-
 ### 10주차(2022-12-29 ~ 2023-01-04)
 
 |    날짜    |                          문제(기본)                          |                          문제(응용)                          | 호스트 |
@@ -143,4 +139,15 @@
 | 2023-01-16 |   [순열장난(10597)](https://www.acmicpc.net/problem/10597)   |    [애너그램(6443)](https://www.acmicpc.net/problem/6443)    | 손창한 |
 | 2023-01-17 |  [나무 탈출(15900)](https://www.acmicpc.net/problem/15900)   | [감시 피하기 (18428)](https://www.acmicpc.net/problem/18428) | 이현홍 |
 | 2023-01-18 |   [플로이드(11404)](https://www.acmicpc.net/problem/11404)   | [서강그라운드(14938)](https://www.acmicpc.net/problem/14938) | 이선우 |
+
+</div>
+</summary>
+</details>
+
+### 15주차(2023-02-02 ~ 2023-02-08)
+
+|    날짜    |                             문제                             |
+| :--------: | :----------------------------------------------------------: |
+| 2023-02-03 | [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) |
+| 2023-02-07 | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) |
 
