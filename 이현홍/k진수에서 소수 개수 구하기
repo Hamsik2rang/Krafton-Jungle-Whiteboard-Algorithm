@@ -1,0 +1,41 @@
+def convert(n, k):
+    lst = []
+    while k <= n:
+        lst.append(str(n % k))
+        n = n // k
+    if n: lst.append(str(n))
+    return "".join(lst[::-1])
+
+
+def Promise(number):
+    if number < 2:
+        return False
+    elif number == 2 or number == 3:
+        return True
+    else:
+        if number % 2:
+            for i in range(3, int(number**.5)+1, 2):
+                if not number % i: return False
+            return True
+        else:
+            return False
+
+        
+def my_int(lst:list):
+    temp = []
+    for s in lst:
+        if s=='':
+            pass
+        else:
+            temp.append(int(s))
+    return temp
+        
+        
+def solution(n, k):
+    str_number = convert(n, k)
+    numbers = my_int(str_number.split("0"))
+    answer = 0
+    
+    for number in numbers:
+        if Promise(number): answer += 1
+    return answer
