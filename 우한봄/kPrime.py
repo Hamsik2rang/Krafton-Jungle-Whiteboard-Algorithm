@@ -7,22 +7,17 @@ def turnN(n, q):
 
     return rev_base[::-1] 
 
-def primeNumberSieve(n):
-    a=[0 for _ in range(n*10)]
-    for i in range(2,n*10):
-        a[i] = i;
-    
-    for i in range(2,n*10):
-        if a[i]==0:
-            continue
-        for j in range(i*2, n*10,i):
-            a[j] = 0;
-
-    return a
+def isPrime(n):
+    if n==1:
+        return False
+    else:
+        for i in range(2, int(n**0.5)+1):
+            if n%i==0:
+                return False
+        return True
 
 def solution(n, k):
     nstring=turnN(n,k)
-    primeArr=primeNumberSieve(n)
     
     primeLst=[]
     prime=''
@@ -38,7 +33,7 @@ def solution(n, k):
     
     cnt=0
     for p in primeLst:
-        if primeArr[int(p)]!=0:
+        if isPrime(int(p)):
             cnt+=1
     
     return cnt
