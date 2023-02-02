@@ -19,17 +19,9 @@ def isPrime(n):
 def solution(n, k):
     nstring=turnN(n,k)
     
-    primeLst=[]
-    prime=''
-    for s in nstring:
-        if s=="0":
-            if prime=='':
-                continue
-            primeLst.append(prime)
-            prime=''
-        else:
-            prime+=s
-    primeLst.append(prime)
+    primeLst=nstring.split('0')
+    while '' in primeLst:
+        primeLst.remove('')
     
     cnt=0
     for p in primeLst:
