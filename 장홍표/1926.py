@@ -3,46 +3,41 @@ import sys
 input = sys.stdin.readline
 from collections import deque
 
-q = deque()
-
 N, M = map(int, input().strip().split())
-Paper = [list(input().strip().split()) for _ in range(N)]
-paintC = 0
-paintAmax = 0
+Paper = [list(map(int, input().strip().split())) for _ in range(N)]
+paints = []
 
 dx = [0, 0, 1, -1]
 dy = [1, -1, 0, 0]
 
 
-# 다시 짜기 x y 축 보고..
+def bfs(paper, x, y):
+    queue = deque()
+    queue.append((x, y))
+    paper[x][y] = 0
+    paintA = 1
+    while queue:
+        x, y = queue.popleft()
+        for i in range(4):
+            new_x = x + dx[i]
+            new_y = y + dy[i]
+            if new_x < 0 or new_x >= N or new_y < 0 or new_y >= M:
+                continue
+            if paper[new_x][new_y] == 1:
+                paper[new_x][new_y] = 0
+                queue.append((new_x, new_y))
+                paintA += 1
+    return paintA
+
+
 for i in range(N):
     for j in range(M):
-        if Paper[i][j] == "1":
-            q.append((i, j))
-            paintC += 1
-            paintA = 0
-            while q:
-                I, J = map(int, q.popleft())
-                if Paper[I][J] == "0":
-                    break
-                else:
-                    Paper[i][j] = "0"
-                    for k in range(4):
-                        new_x = J + dx[k]
-                        new_y = I + dy[k]
-                        if new_x < 0 or new_x >= M or new_y < 0 or new_y >= N:
-                            continue
-                        if Paper[new_y][new_x] == "1":
-                            Paper[new_y][new_x] = "0"
-                            q.append((new_y, new_x))
-                    paintA += 1
+        if Paper[i][j] == 1:
+            paints.append(bfs(Paper, i, j))
 
-                paintAmax = max(paintAmax, paintA)
-
-print(Paper)
-if paintC == 0:
+if len(paints) == 0:
     print("0")
     print("0")
 else:
-    print(paintC)
-    print(paintAmax)
+    print(len(paints))
+    print(max(paints))
