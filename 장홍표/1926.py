@@ -13,6 +13,8 @@ paintAmax = 0
 dx = [0, 0, 1, -1]
 dy = [1, -1, 0, 0]
 
+
+# 다시 짜기 x y 축 보고..
 for i in range(N):
     for j in range(M):
         if Paper[i][j] == "1":
