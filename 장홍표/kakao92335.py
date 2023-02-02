@@ -10,7 +10,7 @@ def solution(n, k):
 
 
 def Transcimal(num, k):  # num을 k진수로 변환
-    #k의 n제곱이 num보다 커질 때, 그 전의 k값 (k^(n-1))을 num에서 빼고, n-1자릿수에 +1                                                                                      
+    # k의 n제곱이 num보다 커질 때, 그 전의 k값 (k^(n-1))을 num에서 빼고, n-1자릿수에 +1
     ktmp = k
     ret = 0
     while num != 0:
