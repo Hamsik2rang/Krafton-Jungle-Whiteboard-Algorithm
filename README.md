@@ -144,6 +144,15 @@
 </summary>
 </details>
 
+* 리뷰어 매칭 스프레드시트
+  > https://docs.google.com/spreadsheets/d/1Zmyn2XnzYyIVKNFJ-FW9e9g3bcabUx9llAMQYMg8L1s/edit#gid=0
+
+* 날짜 아래에 있는 리뷰어가 B열에 있는 사람의 코드를 리뷰
+
+  (해당 리뷰일 노란색 배경 하이라이트)
+
+  > 예) 2023-02-03 박정은이 **김세희**의 코드를 리뷰
+
 ### 14주차(2023-02-02 ~ 2023-02-08)
 
 |    날짜    |                             문제                             |
